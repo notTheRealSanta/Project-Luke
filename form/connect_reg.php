@@ -1,5 +1,5 @@
 <?php
-    
+
     $first_name=$_POST['first_name'];
     $last_name=$_POST['last_name'];
     $reg_no=$_POST['reg_no'];
@@ -16,11 +16,7 @@
     $guardian_name=$_POST['guardian_name'];
     $guardian_phone=$_POST['guardian_phone'];
     $room_no=$_POST['room_no'];
-    
-    
-    
-  
-    
-    
-    
-    ?>
+
+    echo $first_name;
+
+?>
